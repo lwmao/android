@@ -1,4 +1,7 @@
 <resources>
     <string name="app_name">Practice</string>
-    <string name="click">Click</string>
+    <string name="click">Save</string>
+    <string name="edit_name">enter the name</string>
+    <string name="edit_text">enter the number</string>
+    <string name="view">View</string>
 </resources>

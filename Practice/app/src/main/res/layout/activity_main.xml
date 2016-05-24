@@ -9,15 +9,35 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="mao.practice.MainActivity">
 
-    <TextView
-        android:id="@+id/aa"
+    <EditText
+        android:id="@+id/name"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Liwei Mao" />
+        android:hint="@string/edit_name"/>
+
+    <EditText
+        android:id="@+id/number"
+        android:layout_below ="@id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/edit_text"/>
+
     <Button
-        android:layout_below="@id/aa"
+        android:id="@+id/save_button"
+        android:layout_below="@id/number"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/click"
-        android:onClick="onClick"/>
+        android:onClick="saveOnClick"/>
+
+    <Button
+        android:id="@+id/view_button"
+        android:layout_toRightOf="@id/save_button"
+        android:layout_below="@id/number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/view"
+        android:onClick="viewOnClick"/>
+
+
 </RelativeLayout>
