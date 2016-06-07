@@ -3,5 +3,7 @@
     <string name="click">Save</string>
     <string name="edit_name">enter the name</string>
     <string name="edit_text">enter the number</string>
-    <string name="view">View</string>
+    <string name="edit_email">enter the email</string>
+    <string name="view_raw">View Data</string>
+    <string name="view_list">View Contact List</string>
 </resources>

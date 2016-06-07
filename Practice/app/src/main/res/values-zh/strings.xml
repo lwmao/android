@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+    <string name="app_name">练习</string>
+    <string name="click">保存</string>
+    <string name="edit_name">请输入名字</string>
+    <string name="edit_text">请输入电话号码</string>
+    <string name="edit_email">请输入电子邮件</string>
+    <string name="view_raw">数据库</string>
+    <string name="view_list">联系人</string>
+
+</resources>

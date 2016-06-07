@@ -7,20 +7,13 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    android:id ="@+id/content"
-    android:orientation="vertical"
-    tools:context="mao.practice.PhoneBook">
 
-    <TextView
-        android:id="@+id/name"
+    tools:context="mao.practice.ContactList">
+
+    <ListView
+        android:id="@+id/listView"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
-
-    <TextView
-        android:id="@+id/number"
-        android:layout_below="@id/name"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
-
+        android:layout_height="wrap_content"
+       />
 
 </LinearLayout>

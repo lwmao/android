@@ -16,15 +16,15 @@ public class PhoneBook extends AppCompatActivity {
         setContentView(R.layout.activity_phone_book);
 
         TextView name_textView = (TextView) findViewById(R.id.name);
-        TextView num_textView = (TextView) findViewById(R.id.number);
+        //TextView num_textView = (TextView) findViewById(R.id.number);
 
         Intent intent = getIntent();
 
         String name = intent.getStringExtra(MainActivity.EXTRA_name);
-        String num = intent.getStringExtra(MainActivity.EXTRA_num);
+        //String num = intent.getStringExtra(MainActivity.EXTRA_num);
 
         name_textView.setText(name);
-        num_textView.setText(num);
+        //num_textView.setText(num);
 
     }
 }
